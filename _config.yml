@@ -1,0 +1,58 @@
+# Site settings
+title: Helena w Warszawie
+email: kasia@helena.waw.pl
+url: http://helena.waw.pl
+description: "Tu będzie metaopis"
+keywords: "decoupage, szydełkowanie, jedzenie, gotowanie, desery"
+skills: "Szydełko - Druty - Ozdoby"
+meta_author: Katarzyna Woroszył
+
+# Google webmaster tools
+#google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+#bing_verify:
+
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: Piotr Bogdan
+  location: Gdzie jestem
+  social: Znajdź nas na
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: instagram
+    url: http://instagram.com/helena_w_warszawie
+  - title: facebook
+    url: https://www.facebook.com/HelenaWWarszawie
+  - title: envelope
+    url: mailto:kasia@helena.waw.pl
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Warszawa
+  - line: Żoliborz
+
+# Credits content
+#credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+#for posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: ""
