@@ -6,6 +6,7 @@ description: "Tu będzie metaopis"
 keywords: "decoupage, szydełkowanie, jedzenie, gotowanie, desery"
 skills: "Szydełko - Druty - Ozdoby"
 meta_author: Katarzyna Woroszył
+version: 0.2.0
 
 # Google webmaster tools
 #google_verify:
@@ -56,3 +57,8 @@ defaults:
       type: "posts"
     values:
       permalink: ""
+
+exclude:
+  - CNAME
+  - LICENSE
+  - README.md
