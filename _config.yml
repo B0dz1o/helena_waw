@@ -56,3 +56,8 @@ defaults:
       type: "posts"
     values:
       permalink: ""
+
+exclude:
+  - CNAME
+  - LICENSE
+  - README.md
